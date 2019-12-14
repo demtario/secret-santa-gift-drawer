@@ -2,7 +2,7 @@ body {
   margin: 0;
   min-height: 100vh;
   font-family: 'Girassol', cursive;
-  background-image: url('/bg.png');
+  background-image: url('./images/bg.png');
   background-position: bottom center;
   background-size: cover;
   background-repeat: no-repeat;
