@@ -3,3 +3,10 @@
   text-align: center;
   margin: 32px 0;
 }
+
+@media screen and (max-width: 500px) {
+  .header {
+    font-size: 31px;
+    margin: 16px 0;
+  }
+}

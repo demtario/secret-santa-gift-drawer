@@ -43,9 +43,14 @@ const Shuffler = () => {
     <div className="shuffler">
       <Header text="Results:" />
       <Results users={pageUsers} />
-      { page < NAMES.length &&
-        <Button text='Next' size="small" onClick={() => setPage(page+1)} />
-      }
+      <div className="flex">
+        { page > 1 &&
+          <Button text='Back' size="small" type="grayed" onClick={() => setPage(page-1)} />
+        }
+        { page < NAMES.length &&
+          <Button text='Next' size="small" onClick={() => setPage(page+1)} />
+        }
+      </div>
     </div>
   )
 }

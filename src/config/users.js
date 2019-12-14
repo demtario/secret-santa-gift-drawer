@@ -21,7 +21,7 @@ export default [
   },
   {
     id: 4,
-    name: "Brokuł",
+    name: "Marcin",
     image: "https://ec.europa.eu/jrc/sites/jrcsh/files/styles/normal-responsive/public/adobestock_226013143.jpeg?itok=20EmkjeP"
   },
   {

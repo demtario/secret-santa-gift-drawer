@@ -1,23 +1,34 @@
 import React, { useMemo } from 'react'
 
-import './style.css'
+import './style.scss'
 
-const Button = ({text="Press me!", size="", onClick}) => {
-  const className = useMemo(() => {
-    const baseClass = 'btn'
+const Button = ({text="Press me!", size="", onClick, type="primary", className=""}) => {
+  const baseClass = 'btn'
+
+  const sizeClass = useMemo(() => {
     switch(size) {
       case 'small':
-        return `${baseClass} ${baseClass}--sm`
+        return `${baseClass}--sm`
       case 'big':
-        return `${baseClass} ${baseClass}--xl`
+        return `${baseClass}--xl`
       case 'normal':
       default:
-        return baseClass
+        return ''
     }
   }, [size])
 
+  const typeClass = useMemo(() => {
+    switch(type) {
+      case 'grayed':
+        return `${baseClass}--grayed`
+      case 'primary':
+      default:
+        return ''
+    }
+  }, [type])
+
   return (
-    <button className={className} onClick={onClick}>
+    <button className={`${baseClass} ${sizeClass} ${typeClass} ${className}`} onClick={onClick}>
       {text}
     </button>
   )
