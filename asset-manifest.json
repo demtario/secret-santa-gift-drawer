@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/secret-santa-gift-drawer/static/css/main.bed31c26.chunk.css",
-    "main.js": "/secret-santa-gift-drawer/static/js/main.8c252e67.chunk.js",
-    "main.js.map": "/secret-santa-gift-drawer/static/js/main.8c252e67.chunk.js.map",
+    "main.css": "/secret-santa-gift-drawer/static/css/main.2cc8cf6d.chunk.css",
+    "main.js": "/secret-santa-gift-drawer/static/js/main.e822c253.chunk.js",
+    "main.js.map": "/secret-santa-gift-drawer/static/js/main.e822c253.chunk.js.map",
     "runtime-main.js": "/secret-santa-gift-drawer/static/js/runtime-main.97e9a30a.js",
     "runtime-main.js.map": "/secret-santa-gift-drawer/static/js/runtime-main.97e9a30a.js.map",
-    "static/js/2.503c725c.chunk.js": "/secret-santa-gift-drawer/static/js/2.503c725c.chunk.js",
-    "static/js/2.503c725c.chunk.js.map": "/secret-santa-gift-drawer/static/js/2.503c725c.chunk.js.map",
+    "static/js/2.5ac8255f.chunk.js": "/secret-santa-gift-drawer/static/js/2.5ac8255f.chunk.js",
+    "static/js/2.5ac8255f.chunk.js.map": "/secret-santa-gift-drawer/static/js/2.5ac8255f.chunk.js.map",
     "index.html": "/secret-santa-gift-drawer/index.html",
-    "precache-manifest.0e97030944d6d642745e827e0e49e0a7.js": "/secret-santa-gift-drawer/precache-manifest.0e97030944d6d642745e827e0e49e0a7.js",
+    "precache-manifest.2b5780c7f13be2dadfab62738049a717.js": "/secret-santa-gift-drawer/precache-manifest.2b5780c7f13be2dadfab62738049a717.js",
     "service-worker.js": "/secret-santa-gift-drawer/service-worker.js",
-    "static/css/main.bed31c26.chunk.css.map": "/secret-santa-gift-drawer/static/css/main.bed31c26.chunk.css.map",
-    "static/js/2.503c725c.chunk.js.LICENSE": "/secret-santa-gift-drawer/static/js/2.503c725c.chunk.js.LICENSE"
+    "static/css/main.2cc8cf6d.chunk.css.map": "/secret-santa-gift-drawer/static/css/main.2cc8cf6d.chunk.css.map",
+    "static/js/2.5ac8255f.chunk.js.LICENSE": "/secret-santa-gift-drawer/static/js/2.5ac8255f.chunk.js.LICENSE",
+    "static/media/index.css": "/secret-santa-gift-drawer/static/media/bg.f47a4c49.png"
   },
   "entrypoints": [
     "static/js/runtime-main.97e9a30a.js",
-    "static/js/2.503c725c.chunk.js",
-    "static/css/main.bed31c26.chunk.css",
-    "static/js/main.8c252e67.chunk.js"
+    "static/js/2.5ac8255f.chunk.js",
+    "static/css/main.2cc8cf6d.chunk.css",
+    "static/js/main.e822c253.chunk.js"
   ]
 }
