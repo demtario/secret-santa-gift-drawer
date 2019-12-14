@@ -20,21 +20,31 @@ const Shuffler = () => {
   const [page, setPage] = useState(1)
 
   const shuffledArray = useMemo(() => {
-    return shuffle(NAMES)
+    const from = shuffle([...NAMES])
+    let to = shuffle([...NAMES])
+    while(from.some(({id}, i) => to[i].id === id)) {
+      to = shuffle([...NAMES])
+    }
+
+    return [
+      from,
+      to
+    ]
   }, [])
+  console.log("TCL: shuffledArray -> shuffledArray", shuffledArray[0].map(({name}) => name), shuffledArray[1].map(({name}) => name))
 
   const pageUsers = useMemo(() => {
     return [
-      shuffledArray[page*2-2],
-      shuffledArray[page*2-1]
+      shuffledArray[0][page-1],
+      shuffledArray[1][page-1]
     ]
-  }, [page])
+  }, [page, shuffledArray])
 
   return (
     <div className="shuffler">
       <Header text="Results:" />
       <Results users={pageUsers} />
-      { page*2 < shuffledArray.length &&
+      { page < NAMES.length &&
         <Button text='Next' size="small" onClick={() => setPage(page+1)} />
       }
     </div>

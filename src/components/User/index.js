@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import './style.css'
 
 const defaultUser = {
@@ -7,10 +7,21 @@ const defaultUser = {
 }
 
 const User = ({user=defaultUser}) => {
+  const [current, setCurrent] = useState(user)
+  const [faded, setFaded] = useState(false)
+
+  useEffect(() => {
+    setFaded(true)
+    setTimeout(() => {
+      setCurrent(user)
+      setFaded(false)
+    }, 300)
+  }, [user])
+
   return (
-    <div className="user">
-      <img src={user.image} alt={`${user.name} image`} className="user__image"/>
-      <h2 className="user__name">{user.name}</h2>
+    <div className={`user ${faded && 'user--fade-out'}`}>
+      <img src={current.image} alt={`${current.name} image`} className="user__image"/>
+      <h2 className="user__name">{current.name}</h2>
     </div>
   )
 }

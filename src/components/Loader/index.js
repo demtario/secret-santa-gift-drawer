@@ -3,7 +3,7 @@ import './style.scss'
 
 const Loader = () => {
   return (
-    <div class="wrap">
+    <div className="wrap">
       <div></div>
       <div></div>
       <div></div>

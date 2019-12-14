@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import SnowStorm from 'react-snowstorm';
 
 import Button from './components/Button';
 import Header from './components/Header';
@@ -14,15 +15,16 @@ const App = () => {
     if(screen === 'shuffle') {
       setTimeout(() => {
         setScreen('results')
-      }, 500);
+      }, 6000);
     }
   }, [screen])
 
   return (
     <div className="app">
+      <SnowStorm flakesMaxActive={128} />
       <div className={`screen ${screen === 'init' && 'screen--active'}`}>
         <Header />
-        <Button text='Losu losu' onClick={() => setScreen('shuffle')} />
+        <Button text="Let's go!" onClick={() => setScreen('shuffle')} />
       </div>
       <div className={`screen ${screen === 'shuffle' && 'screen--active'}`}>
         <div className="shuffle">
