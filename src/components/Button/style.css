@@ -1,0 +1,26 @@
+.btn {
+  all: unset;
+  background: #E64C3C;
+  font-size: 26px;
+  padding: 16px 64px;
+  border-bottom: solid 8px #DA2B19;
+  transition: 0.3s;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn:hover {
+  transform: translateY(4px);
+  border-bottom-width: 4px;
+}
+
+.btn.btn--sm {
+  font-size: 20px;
+  padding: 8px 32px;
+  border-bottom-width: 6px;
+}
+
+.btn.btn--sm:hover {
+  transform: translateY(3px);
+  border-bottom-width: 3px;
+}

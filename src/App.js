@@ -1,24 +1,40 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useEffect } from 'react';
 
-function App() {
+import Button from './components/Button';
+import Header from './components/Header';
+import Loader from './components/Loader';
+import Shuffler from './components/Shuffler';
+
+import './App.scss';
+
+const App = () => {
+  const [screen, setScreen] = useState('init')
+
+  useEffect(() => {
+    if(screen === 'shuffle') {
+      setTimeout(() => {
+        setScreen('results')
+      }, 500);
+    }
+  }, [screen])
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <div className={`screen ${screen === 'init' && 'screen--active'}`}>
+        <Header />
+        <Button text='Losu losu' onClick={() => setScreen('shuffle')} />
+      </div>
+      <div className={`screen ${screen === 'shuffle' && 'screen--active'}`}>
+        <div className="shuffle">
+          <Header text="Shuffle shuffle..." />
+          <div className="shuffle__box">
+            <Loader />
+          </div>
+          </div>
+        </div>
+      <div className={`screen ${screen === 'results' && 'screen--active'}`}>
+        <Shuffler />
+      </div>
     </div>
   );
 }
