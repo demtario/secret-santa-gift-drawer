@@ -31,7 +31,6 @@ const Shuffler = () => {
       to
     ]
   }, [])
-  console.log("TCL: shuffledArray -> shuffledArray", shuffledArray[0].map(({name}) => name), shuffledArray[1].map(({name}) => name))
 
   const pageUsers = useMemo(() => {
     return [
