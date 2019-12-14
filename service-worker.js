@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/secret-santa-gift-drawer/precache-manifest.2b5780c7f13be2dadfab62738049a717.js"
+  "/secret-santa-gift-drawer/precache-manifest.d24c17f0f4120ed92fce7f486c4cea02.js"
 );
 
 self.addEventListener('message', (event) => {

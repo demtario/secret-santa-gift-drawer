@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "72cf1935de2594205dcbd7215dbf6437",
+    "revision": "6fb8f83b98acbc755304da72f8a83671",
     "url": "/secret-santa-gift-drawer/index.html"
   },
   {
-    "revision": "9f2fcde4f6bfc7c81b65",
-    "url": "/secret-santa-gift-drawer/static/css/main.2cc8cf6d.chunk.css"
+    "revision": "9179f23ee4db816f43d1",
+    "url": "/secret-santa-gift-drawer/static/css/main.73e5fb0b.chunk.css"
   },
   {
     "revision": "0512f52820bf11374ea2",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/secret-santa-gift-drawer/static/js/2.5ac8255f.chunk.js.LICENSE"
   },
   {
-    "revision": "9f2fcde4f6bfc7c81b65",
-    "url": "/secret-santa-gift-drawer/static/js/main.e822c253.chunk.js"
+    "revision": "9179f23ee4db816f43d1",
+    "url": "/secret-santa-gift-drawer/static/js/main.a489f175.chunk.js"
   },
   {
     "revision": "b0688825ccbccde2c159",

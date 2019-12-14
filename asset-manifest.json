@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/secret-santa-gift-drawer/static/css/main.2cc8cf6d.chunk.css",
-    "main.js": "/secret-santa-gift-drawer/static/js/main.e822c253.chunk.js",
-    "main.js.map": "/secret-santa-gift-drawer/static/js/main.e822c253.chunk.js.map",
+    "main.css": "/secret-santa-gift-drawer/static/css/main.73e5fb0b.chunk.css",
+    "main.js": "/secret-santa-gift-drawer/static/js/main.a489f175.chunk.js",
+    "main.js.map": "/secret-santa-gift-drawer/static/js/main.a489f175.chunk.js.map",
     "runtime-main.js": "/secret-santa-gift-drawer/static/js/runtime-main.97e9a30a.js",
     "runtime-main.js.map": "/secret-santa-gift-drawer/static/js/runtime-main.97e9a30a.js.map",
     "static/js/2.5ac8255f.chunk.js": "/secret-santa-gift-drawer/static/js/2.5ac8255f.chunk.js",
     "static/js/2.5ac8255f.chunk.js.map": "/secret-santa-gift-drawer/static/js/2.5ac8255f.chunk.js.map",
     "index.html": "/secret-santa-gift-drawer/index.html",
-    "precache-manifest.2b5780c7f13be2dadfab62738049a717.js": "/secret-santa-gift-drawer/precache-manifest.2b5780c7f13be2dadfab62738049a717.js",
+    "precache-manifest.d24c17f0f4120ed92fce7f486c4cea02.js": "/secret-santa-gift-drawer/precache-manifest.d24c17f0f4120ed92fce7f486c4cea02.js",
     "service-worker.js": "/secret-santa-gift-drawer/service-worker.js",
-    "static/css/main.2cc8cf6d.chunk.css.map": "/secret-santa-gift-drawer/static/css/main.2cc8cf6d.chunk.css.map",
+    "static/css/main.73e5fb0b.chunk.css.map": "/secret-santa-gift-drawer/static/css/main.73e5fb0b.chunk.css.map",
     "static/js/2.5ac8255f.chunk.js.LICENSE": "/secret-santa-gift-drawer/static/js/2.5ac8255f.chunk.js.LICENSE",
     "static/media/index.css": "/secret-santa-gift-drawer/static/media/bg.f47a4c49.png"
   },
   "entrypoints": [
     "static/js/runtime-main.97e9a30a.js",
     "static/js/2.5ac8255f.chunk.js",
-    "static/css/main.2cc8cf6d.chunk.css",
-    "static/js/main.e822c253.chunk.js"
+    "static/css/main.73e5fb0b.chunk.css",
+    "static/js/main.a489f175.chunk.js"
   ]
 }
