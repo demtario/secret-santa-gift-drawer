@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/secret-santa-gift-drawer/static/css/main.bed31c26.chunk.css",
+    "main.js": "/secret-santa-gift-drawer/static/js/main.8c252e67.chunk.js",
+    "main.js.map": "/secret-santa-gift-drawer/static/js/main.8c252e67.chunk.js.map",
+    "runtime-main.js": "/secret-santa-gift-drawer/static/js/runtime-main.97e9a30a.js",
+    "runtime-main.js.map": "/secret-santa-gift-drawer/static/js/runtime-main.97e9a30a.js.map",
+    "static/js/2.503c725c.chunk.js": "/secret-santa-gift-drawer/static/js/2.503c725c.chunk.js",
+    "static/js/2.503c725c.chunk.js.map": "/secret-santa-gift-drawer/static/js/2.503c725c.chunk.js.map",
+    "index.html": "/secret-santa-gift-drawer/index.html",
+    "precache-manifest.0e97030944d6d642745e827e0e49e0a7.js": "/secret-santa-gift-drawer/precache-manifest.0e97030944d6d642745e827e0e49e0a7.js",
+    "service-worker.js": "/secret-santa-gift-drawer/service-worker.js",
+    "static/css/main.bed31c26.chunk.css.map": "/secret-santa-gift-drawer/static/css/main.bed31c26.chunk.css.map",
+    "static/js/2.503c725c.chunk.js.LICENSE": "/secret-santa-gift-drawer/static/js/2.503c725c.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.97e9a30a.js",
+    "static/js/2.503c725c.chunk.js",
+    "static/css/main.bed31c26.chunk.css",
+    "static/js/main.8c252e67.chunk.js"
+  ]
+}
